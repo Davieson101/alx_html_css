@@ -1,0 +1,17 @@
+ /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Example of styling a Font Awesome icon */
+.fa-home {
+    color: steelblue;
+    font-size: 2em; /* Makes the icon larger */
+    margin-right: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
