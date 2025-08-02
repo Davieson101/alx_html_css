@@ -14,3 +14,21 @@ body {
 p {
     font-size: 1.2em;
 }
+header {
+    display-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.nav-links{
+    display-flex;
+    gap:20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+}
