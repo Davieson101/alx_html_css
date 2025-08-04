@@ -388,4 +388,74 @@ body {
   color: #666;
 }
 
+/* Basic body styling for context */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Footer Container */
+.footer {
+  background-color: #12121e; /* A dark color similar to the image */
+  color: #fff;
+  padding: 20px 50px; /* Adjust padding as needed */
+}
+
+/* Content wrapper (logo and social icons) */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Space between the main content and copyright */
+}
+
+/* Logo styling */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.smiley-icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Social Icons */
+.social-icons a {
+  margin-left: 20px;
+  /* You can adjust the margin as needed */
+}
+
+.social-icons img {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+}
+
+/* Copyright notice */
+.footer-copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888; /* A lighter color for the copyright text */
+  border-top: 1px solid #333; /* A subtle line above the copyright text */
+  padding-top: 20px;
+}
+
+/* You might need to adjust the styles for responsiveness using media queries */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 15px;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+  }
+}
+
 
