@@ -287,7 +287,6 @@ body {
     gap: 20px;
 }
 
-/* General styling for the section background and text color */
 .membership-section {
   background-color: #120b22; /* A dark purple/blue color */
   color: #fff; /* White text for contrast */
@@ -295,7 +294,6 @@ body {
   padding: 50px 20px; /* Adds some space inside the section */
 }
 
-/* Flexbox for the container of the four items */
 .membership-items-container {
   display: flex; /* Makes it a flex container */
   justify-content: center; /* Horizontally centers the items */
@@ -304,20 +302,17 @@ body {
   margin-bottom: 30px; /* Space below the items */
 }
 
-/* Styling for each individual item */
 .membership-item {
-  flex: 1; /* Allows each item to grow and take up equal space */
-  max-width: 250px; /* Optional: Sets a maximum width for each item */
+  flex: 1; 
+  max-width: 250px;
   /* You can add more styling here like border-radius, padding, etc. */
 }
 
-/* Styling for the smiley icon */
 .smiley-icon {
   font-size: 3rem; /* Makes the smiley icon larger */
   color: #c795ff; /* A lighter purple color */
 }
 
-/* Styling for the titles and descriptions */
 .item-title {
   font-size: 1.2rem;
   color: #c795ff;
@@ -328,10 +323,9 @@ body {
   color: #ccc;
 }
 
-/* Styling for the call-to-action button */
 .cta-button {
-  background-color: #c795ff; /* Button background color */
-  color: #120b22; /* Button text color */
+  background-color: #c795ff;
+  color: #120b22;
   padding: 15px 30px;
   border: none;
   border-radius: 30px;
@@ -341,75 +335,66 @@ body {
   text-transform: uppercase;
 }
 
-/* Styling for the main section */
 .faq-section {
   padding: 50px 20px;
-  background-color: #f0f0f0; /* A light background color */
-  color: #333; /* Dark text for readability */
+  background-color: #f0f0f0;
+  color: #333;
 }
 
-/* Styling for the centered title */
 .faq-title {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 40px; /* Space below the title */
-  color: #555; /* A slightly darker color for the title */
+  margin-bottom: 40px;
+  color: #555;
 }
 
-/* Grid layout for the FAQ items */
 .faq-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Creates two columns of equal width */
-  gap: 30px; /* Adds space between the columns and rows */
-  max-width: 1000px; /* Limits the container width for better readability */
-  margin: 0 auto; /* Centers the container */
+  grid-template-columns: 1fr 1fr; 
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* Styling for each individual FAQ item */
 .faq-item {
-  background-color: #fff; /* White background for the item */
+  background-color: #fff;
   padding: 20px;
-  border-radius: 8px; /* Slightly rounded corners */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* A subtle shadow */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Styling for the question text */
 .faq-question {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 0;
-  color: #007bff; /* A blue color for the question to stand out */
+  color: #007bff;
 }
 
-/* Styling for the answer text */
 .faq-answer {
   font-size: 1rem;
   line-height: 1.6;
   color: #666;
 }
 
-/* Basic body styling for context */
 body {
   margin: 0;
   font-family: sans-serif;
 }
 
-/* Footer Container */
+
 .footer {
-  background-color: #12121e; /* A dark color similar to the image */
+  background-color: #12121e; 
   color: #fff;
-  padding: 20px 50px; /* Adjust padding as needed */
+  padding: 20px 50px;
 }
 
-/* Content wrapper (logo and social icons) */
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px; /* Space between the main content and copyright */
+  margin-bottom: 20px;
 }
 
-/* Logo styling */
 .footer-logo {
   display: flex;
   align-items: center;
@@ -422,27 +407,23 @@ body {
   font-size: 1.5rem;
 }
 
-/* Social Icons */
 .social-icons a {
   margin-left: 20px;
-  /* You can adjust the margin as needed */
 }
 
 .social-icons img {
-  width: 24px; /* Adjust icon size */
+  width: 24px;
   height: 24px;
 }
 
-/* Copyright notice */
 .footer-copyright {
   text-align: center;
   font-size: 0.8rem;
-  color: #888; /* A lighter color for the copyright text */
-  border-top: 1px solid #333; /* A subtle line above the copyright text */
+  color: #888; 
+  border-top: 1px solid #333;
   padding-top: 20px;
 }
 
-/* You might need to adjust the styles for responsiveness using media queries */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
