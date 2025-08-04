@@ -341,3 +341,51 @@ body {
   text-transform: uppercase;
 }
 
+/* Styling for the main section */
+.faq-section {
+  padding: 50px 20px;
+  background-color: #f0f0f0; /* A light background color */
+  color: #333; /* Dark text for readability */
+}
+
+/* Styling for the centered title */
+.faq-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px; /* Space below the title */
+  color: #555; /* A slightly darker color for the title */
+}
+
+/* Grid layout for the FAQ items */
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two columns of equal width */
+  gap: 30px; /* Adds space between the columns and rows */
+  max-width: 1000px; /* Limits the container width for better readability */
+  margin: 0 auto; /* Centers the container */
+}
+
+/* Styling for each individual FAQ item */
+.faq-item {
+  background-color: #fff; /* White background for the item */
+  padding: 20px;
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* A subtle shadow */
+}
+
+/* Styling for the question text */
+.faq-question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+  color: #007bff; /* A blue color for the question to stand out */
+}
+
+/* Styling for the answer text */
+.faq-answer {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+
